@@ -1,0 +1,48 @@
+#picture {
+  align-items: center;
+  border-radius: 20%;
+  display: block;
+  margin: auto;
+}
+#name {
+  font-size: 3em;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 10px;
+  padding-top: 10px;
+}
+#contact-details {
+  text-align: center;
+  padding: 0 0;
+  margin: 0 0;
+}
+hr {
+  border: 2px solid;
+  width: 50%;
+}
+#description {
+  display: flex;
+  border: 3 solid black;
+  justify-content: space-around;
+}
+#left {
+  padding-left: 25%;
+  padding-right: 2%;
+  /* background-color: powderblue; */
+  line-height: 1;
+}
+#right {
+  padding-right: 25%;
+  justify-content: left;
+  /* background-color: powderblue */
+}
+.company {
+  color: gray;
+}
+.detials {
+  line-height: 1.25;
+  list-style-position: outside;
+}
+a {
+  color: black;
+}
