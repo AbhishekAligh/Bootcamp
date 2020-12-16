@@ -1,0 +1,75 @@
+body {
+  padding: 5% 15%;
+}
+/* nav styling */
+#profile {
+  background-color: rgb(43, 37, 37);
+  text-align: center;
+  justify-content: center;
+  position:relative;
+}
+#profile_picture {
+  border: 4px dotted rgb(248, 166, 33);
+  border-radius: 50%;
+  margin-top: 3%;
+  /* position: relative; */
+}
+#line {
+  border: 2px solid white;
+  border-width: 1em;
+  display: block;
+}
+#overlap{
+  background-color: whitesmoke;
+}
+#my_name {
+  border-radius: 2%;
+  background-color: rgb(248, 166, 33);
+  font-family: courier, sans-serif;
+  font-size: 2rem;
+  padding: 1%;
+  position: relative;
+  /* z-index: 2; */
+}
+#contact_details {
+  text-align: center;
+  padding: 0;
+}
+/* section styling */
+.grid_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 2px;
+  /* background-color: aliceblue; */
+  padding: 1.5% 5%;
+}
+.section1 {
+  border-right: 2px solid black;
+  padding-right: 10%;
+}
+.favicon {
+  color: rgb(248, 166, 33);
+  border: 3px dotted rgb(248, 166, 33);
+  padding: 3%;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: rgb(43, 37, 37);
+}
+.title {
+  padding-left: 2%;
+}
+.title,
+.favicon {
+  display: inline-block;
+}
+/* section 2 styling */
+
+.section2 {
+  padding-left: 2%;
+}
+
+/* skill set section */
+
+.skillSet {
+  list-style: none;
+}
